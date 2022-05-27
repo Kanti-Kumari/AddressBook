@@ -33,4 +33,10 @@ An Address Book FastApi Application to demonstartes CRUD Operations with FastAPI
 	# Run the Application
 		1. Seup the Initial Data by Running : python initial_data.py
 		2. uvicorn app.main:app --reload
+		3. Open the localhost in the browser and see the root results.
+
+	# Steps to do CRUD Operations:
+		1. go to localhost:8000/docs
+		2. Start performing operations one by one as per the instructions there.
+
 '''
