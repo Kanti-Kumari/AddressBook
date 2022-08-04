@@ -7,7 +7,7 @@ An Address Book FastApi Application to demonstartes CRUD Operations with FastAPI
 
  	# For Ubuntu OS
 
-	 1. if wants to run in virtual environment
+	 1. To run in virtual environment
 	 	i. create a virtual env with this command : python3 -m venv anyenvname
 	 	ii. Activate this environment following this command : source envname/bin/activate
 
@@ -18,12 +18,12 @@ An Address Book FastApi Application to demonstartes CRUD Operations with FastAPI
 
 	# For Windows OS
 
-	 1. if wants to run in virtual environment
+	 1. To run in virtual environment
 	 	i. create a virtual env with this command : python3 -m venv anyenvname
 	 	ii. Activate this environment following this command : envname\Scripts\activate
 
 	 2. Change the Directory to AddressBook : cd AddressBook
-	 3. Run the setup.py file : python setup.py
+	 3. Run the setup.py file : python setup.py develop
 	 				OR
 	 	pip install -r requirements.txt
 
@@ -31,12 +31,16 @@ An Address Book FastApi Application to demonstartes CRUD Operations with FastAPI
 
 '''
 	# Run the Application
-		1. Seup the Initial Data by Running : python initial_data.py
+		1. Setup the Initial Data by Running : python initial_data.py
 		2. uvicorn app.main:app --reload
 		3. Open the localhost in the browser and see the root results.
 
 	# Steps to do CRUD Operations:
-		1. go to localhost:8000/docs
+		1. go to localhost:8000/docs [inbuilt swagger]
 		2. Start performing operations one by one as per the instructions there.
+		
+		OR 
+	Test using POSTMAN.
+	
 
 '''
